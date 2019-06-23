@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4FC3F7</color>
+    <color name="colorPrimaryVariant">#81D4FA</color>
+    <color name="colorOnPrimaryHighEmp">#DE000000</color>
+    <color name="colorOnPrimaryMediumEmp">#99000000</color>
+    <color name="colorOnPrimaryDisable">#61000000</color>
+
+    <color name="colorSecondary">#1E88E5</color>
+    <color name="colorSecondaryVariant">#90CAF9</color>
+    <color name="colorOnSecondaryHighEmp">#442B2D</color>
+    <color name="colorOnSecondaryMediumEmp">#442B2D</color>
+    <color name="colorOnSecondaryDisable">#61000000</color>
+
+    <color name="colorSurface">#FFFBFA</color>
+    <color name="colorOnSurfaceHighEmp">#442B2D</color>
+    <color name="colorOnSurfaceMediumEmp">#442B2D</color>
+    <color name="colorOnSurfaceDisable">#61000000</color>
+    <color name="colorSurfaceDark">#F3EFEE</color>
+
+    <color name="colorError">#C51162</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <color name="colorBlackTextHighEmp">#DE000000</color>
+    <color name="colorBlackTextMediumEmp">#99000000</color>
+    <color name="colorBlackTextDiable">#61000000</color>
+
+    <color name="colorWhiteTextHighEmp">#FFFFFF</color>
+    <color name="colorWhiteTextMediumEmp">#99FFFFFF</color>
+    <color name="colorWhiteTextDisable">#61FFFFFF</color>
+</resources>

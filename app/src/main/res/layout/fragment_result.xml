@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="CONGRATULATION"
+            android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/chart" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="You have finished lesson 20/50"
+            android:fontFamily="@font/quicksand"
+            android:textColor="@color/colorBlackTextHighEmp"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/quicksand_medium"
+                android:textColor="@color/colorWhiteTextHighEmp"
+                android:text="Go to dashboard" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/quicksand_medium"
+                android:textColor="@color/colorWhiteTextHighEmp"
+                android:text="Next lesson" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

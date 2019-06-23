@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LessonActivity"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Lesson 1" />
+
+                <ProgressBar
+                    android:id="@+id/pb"
+                    style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="10"
+                    android:progress="0" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlackTextMediumEmp"
+                    android:fontFamily="@font/quicksand"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Unit 3: Conversation" />
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlackTextDiable"
+                    android:fontFamily="@font/quicksand"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:gravity="end"
+                    android:text="Watching movie" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorBlackTextDiable" />
+
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_below="@id/ll_header"
+            android:layout_height="match_parent"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/right_arrow"
+            app:tint="@color/colorWhiteTextHighEmp"
+            />
+
+    </RelativeLayout>
+</layout>

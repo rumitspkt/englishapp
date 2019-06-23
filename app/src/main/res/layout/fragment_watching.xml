@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_media_play" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_replay"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="Replay"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhiteTextHighEmp"
+                app:icon="@drawable/rotating_arrow"
+                app:iconGravity="textStart"
+                app:iconSize="15dp"
+                app:iconTint="@color/colorWhiteTextHighEmp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhiteTextHighEmp"
+                app:icon="@drawable/right_arrow"
+                app:iconGravity="textStart"
+                app:iconSize="15dp"
+                app:iconTint="@color/colorWhiteTextHighEmp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
